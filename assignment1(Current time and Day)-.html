@@ -1,0 +1,43 @@
+<!DOCTYPE html>   
+    <head> 
+    
+    </head>
+    <body>
+
+      <script>
+    //shivang-prabhu
+
+    var day = new Array(7);
+    day[0]="Sunday";
+    day[1]="Monday";
+    day[2]="Tuesday";
+    day[3]="Wednesday";
+    day[4]="Thursday";
+    day[5]="Friday";
+    day[6]="Saturday";
+
+    
+    var d= new Date();
+    var n =d.getDay();
+    var hh= d.getHours();
+    var mm = d.getMinutes();
+    var ss =d.getSeconds();
+    var a ="AM";
+
+    if(hh>12)
+    {
+        hh=hh%12;
+        a="PM";
+    }
+
+
+    document.write("Today is:"+day[n]);
+    
+     
+    document.write("\n Current time is:  " +hh +a );
+    document.write( ":" + mm);
+    document.write(":" + ss);
+   
+      </script>
+    </body>
+</html>
