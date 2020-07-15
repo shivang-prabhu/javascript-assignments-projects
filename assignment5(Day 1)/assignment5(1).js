@@ -1,0 +1,15 @@
+function myfunction()
+{
+    a=11;
+    let b=10;
+    console.log(a);
+    console.log(b);
+}
+ const t=1;
+
+ console.log(myfunction());
+ console.log(a);
+ console.log(t);
+ t=2;
+ console.log(t);
+ 
