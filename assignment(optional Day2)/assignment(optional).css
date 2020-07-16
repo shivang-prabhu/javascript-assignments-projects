@@ -1,0 +1,32 @@
+.html{
+    min-height:100%;
+}
+.body{
+    background-image: linear-gradient(65deg,blue,purple 60%);
+    
+}
+.div1{
+    width:500px;
+    height:500px;
+    position:absolute;
+    top:85px;
+    left:400px;
+    border:10px solid lightgoldenrodyellow;
+  
+
+    background:lightgray;
+   
+}
+#h1{
+    text-align:center;
+    text-height:10px;
+    color:purple;
+}
+#h2{
+    text-align:center;
+    text-height:15px;
+    color:blue;
+    position:absolute;
+    top:150px;
+    left:110px;
+}
