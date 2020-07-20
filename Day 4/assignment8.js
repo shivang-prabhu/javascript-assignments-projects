@@ -5,7 +5,7 @@ let ask= (question,yes,no)=>{
 ask(
     "Do you agree?",
     
-    ask(){alert("You agreed");}
-    ask(){alert("You cancelled the execution");}
+    ()=>{alert("You agreed");}
+    ()=>{alert("You cancelled the execution");}
 
 );
